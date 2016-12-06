@@ -1,9 +1,9 @@
 //
 //  Header.h
-//  DevChat
+//  meChat
 //
-//  Created by Mark Price on 7/12/16.
-//  Copyright © 2016 Devslopes. All rights reserved.
+//  Created by David Gunawan on 11/18/16.
+//  Copyright © 2016 David. All rights reserved.
 //
 
 #ifndef Header_h

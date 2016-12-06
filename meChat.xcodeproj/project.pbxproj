@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		638330651DF514C5007CE3A2 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638330641DF514C5007CE3A2 /* CameraVC.swift */; };
+		638330751DF520F6007CE3A2 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638330721DF520F6007CE3A2 /* AAPLCameraViewController.m */; };
+		638330761DF520F6007CE3A2 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 638330741DF520F6007CE3A2 /* AAPLPreviewView.m */; };
+		638330791DF5626A007CE3A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 638330781DF5626A007CE3A2 /* GoogleService-Info.plist */; };
+		6383307B1DF58F49007CE3A2 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383307A1DF58F49007CE3A2 /* RoundTextField.swift */; };
+		6383307D1DF595F0007CE3A2 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383307C1DF595F0007CE3A2 /* RoundedButton.swift */; };
+		6383307F1DF598C9007CE3A2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383307E1DF598C9007CE3A2 /* LoginVC.swift */; };
 		63A3302F1DDEAFB70009B090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3302E1DDEAFB70009B090 /* AppDelegate.swift */; };
-		63A330311DDEAFB70009B090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A330301DDEAFB70009B090 /* ViewController.swift */; };
 		63A330341DDEAFB70009B090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A330321DDEAFB70009B090 /* Main.storyboard */; };
 		63A330361DDEAFB70009B090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A330351DDEAFB70009B090 /* Assets.xcassets */; };
 		63A330391DDEAFB70009B090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A330371DDEAFB70009B090 /* LaunchScreen.storyboard */; };
+		63FC484E1DF66433009A0391 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC484D1DF66433009A0391 /* AuthService.swift */; };
+		63FC48501DF674EC009A0391 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC484F1DF674EC009A0391 /* DataService.swift */; };
+		63FC48521DF69697009A0391 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC48511DF69697009A0391 /* UsersVC.swift */; };
+		63FC48541DF698DF009A0391 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC48531DF698DF009A0391 /* UserCell.swift */; };
+		63FC48561DF69E9F009A0391 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC48551DF69E9F009A0391 /* User.swift */; };
+		F613448CDBFABC53449C2A15 /* Pods_meChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFBF8E9182167F5AC9D5C1A /* Pods_meChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B6C4F6A2A844342555DB899 /* Pods-meChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-meChat/Pods-meChat.release.xcconfig"; sourceTree = "<group>"; };
+		638330641DF514C5007CE3A2 /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		638330661DF51592007CE3A2 /* meChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		638330701DF520F6007CE3A2 /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
+		638330711DF520F6007CE3A2 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		638330721DF520F6007CE3A2 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		638330731DF520F6007CE3A2 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		638330741DF520F6007CE3A2 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
+		638330781DF5626A007CE3A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6383307A1DF58F49007CE3A2 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		6383307C1DF595F0007CE3A2 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		6383307E1DF598C9007CE3A2 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		63A3302B1DDEAFB70009B090 /* meChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3302E1DDEAFB70009B090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63A330301DDEAFB70009B090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63A330331DDEAFB70009B090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63A330351DDEAFB70009B090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A330381DDEAFB70009B090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A3303A1DDEAFB70009B090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FC484D1DF66433009A0391 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		63FC484F1DF674EC009A0391 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		63FC48511DF69697009A0391 /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		63FC48531DF698DF009A0391 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		63FC48551DF69E9F009A0391 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8503CE6D6664FE2D4E63F75 /* Pods-meChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meChat/Pods-meChat.debug.xcconfig"; sourceTree = "<group>"; };
+		ECFBF8E9182167F5AC9D5C1A /* Pods_meChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F613448CDBFABC53449C2A15 /* Pods_meChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C79CF49D3377E2F93EAB929 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8503CE6D6664FE2D4E63F75 /* Pods-meChat.debug.xcconfig */,
+				3B6C4F6A2A844342555DB899 /* Pods-meChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		638330771DF54353007CE3A2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				638330701DF520F6007CE3A2 /* AAPLCameraVCDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		63A330221DDEAFB60009B090 = {
 			isa = PBXGroup;
 			children = (
 				63A3302D1DDEAFB70009B090 /* meChat */,
 				63A3302C1DDEAFB70009B090 /* Products */,
+				2C79CF49D3377E2F93EAB929 /* Pods */,
+				D52EF665C4BAE2BB9CCDC946 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,61 @@
 		63A3302D1DDEAFB70009B090 /* meChat */ = {
 			isa = PBXGroup;
 			children = (
+				63FC484C1DF66421009A0391 /* Services */,
+				638330771DF54353007CE3A2 /* Protocols */,
+				63A330451DDEB3CA0009B090 /* View */,
+				63A330441DDEB3AF0009B090 /* Controller */,
 				63A3302E1DDEAFB70009B090 /* AppDelegate.swift */,
-				63A330301DDEAFB70009B090 /* ViewController.swift */,
 				63A330321DDEAFB70009B090 /* Main.storyboard */,
 				63A330351DDEAFB70009B090 /* Assets.xcassets */,
 				63A330371DDEAFB70009B090 /* LaunchScreen.storyboard */,
 				63A3303A1DDEAFB70009B090 /* Info.plist */,
+				638330781DF5626A007CE3A2 /* GoogleService-Info.plist */,
+				638330661DF51592007CE3A2 /* meChat-Bridging-Header.h */,
+				63FC48551DF69E9F009A0391 /* User.swift */,
 			);
 			path = meChat;
+			sourceTree = "<group>";
+		};
+		63A330441DDEB3AF0009B090 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				638330711DF520F6007CE3A2 /* AAPLCameraViewController.h */,
+				638330721DF520F6007CE3A2 /* AAPLCameraViewController.m */,
+				638330641DF514C5007CE3A2 /* CameraVC.swift */,
+				6383307E1DF598C9007CE3A2 /* LoginVC.swift */,
+				63FC48511DF69697009A0391 /* UsersVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		63A330451DDEB3CA0009B090 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				638330731DF520F6007CE3A2 /* AAPLPreviewView.h */,
+				638330741DF520F6007CE3A2 /* AAPLPreviewView.m */,
+				6383307A1DF58F49007CE3A2 /* RoundTextField.swift */,
+				6383307C1DF595F0007CE3A2 /* RoundedButton.swift */,
+				63FC48531DF698DF009A0391 /* UserCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		63FC484C1DF66421009A0391 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63FC484D1DF66433009A0391 /* AuthService.swift */,
+				63FC484F1DF674EC009A0391 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D52EF665C4BAE2BB9CCDC946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECFBF8E9182167F5AC9D5C1A /* Pods_meChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A3303D1DDEAFB70009B090 /* Build configuration list for PBXNativeTarget "meChat" */;
 			buildPhases = (
+				546DA37B31F5C6CC8A0EADAC /* 📦 Check Pods Manifest.lock */,
 				63A330271DDEAFB60009B090 /* Sources */,
 				63A330281DDEAFB60009B090 /* Frameworks */,
 				63A330291DDEAFB60009B090 /* Resources */,
+				356F404E406EE13FB31EB9B6 /* 📦 Embed Pods Frameworks */,
+				42660B5DBB4383651E6F3F59 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +197,7 @@
 					63A3302A1DDEAFB60009B090 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = GD8VREVBA4;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A330391DDEAFB70009B090 /* LaunchScreen.storyboard in Resources */,
+				638330791DF5626A007CE3A2 /* GoogleService-Info.plist in Resources */,
 				63A330361DDEAFB70009B090 /* Assets.xcassets in Resources */,
 				63A330341DDEAFB70009B090 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +234,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		356F404E406EE13FB31EB9B6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meChat/Pods-meChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42660B5DBB4383651E6F3F59 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meChat/Pods-meChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546DA37B31F5C6CC8A0EADAC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63A330271DDEAFB60009B090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A330311DDEAFB70009B090 /* ViewController.swift in Sources */,
+				63FC48501DF674EC009A0391 /* DataService.swift in Sources */,
 				63A3302F1DDEAFB70009B090 /* AppDelegate.swift in Sources */,
+				6383307D1DF595F0007CE3A2 /* RoundedButton.swift in Sources */,
+				6383307F1DF598C9007CE3A2 /* LoginVC.swift in Sources */,
+				638330651DF514C5007CE3A2 /* CameraVC.swift in Sources */,
+				63FC48521DF69697009A0391 /* UsersVC.swift in Sources */,
+				6383307B1DF58F49007CE3A2 /* RoundTextField.swift in Sources */,
+				638330751DF520F6007CE3A2 /* AAPLCameraViewController.m in Sources */,
+				63FC48561DF69E9F009A0391 /* User.swift in Sources */,
+				638330761DF520F6007CE3A2 /* AAPLPreviewView.m in Sources */,
+				63FC48541DF698DF009A0391 /* UserCell.swift in Sources */,
+				63FC484E1DF66433009A0391 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +417,35 @@
 		};
 		63A3303E1DDEAFB70009B090 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8503CE6D6664FE2D4E63F75 /* Pods-meChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GD8VREVBA4;
 				INFOPLIST_FILE = meChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.meChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meChat/meChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		63A3303F1DDEAFB70009B090 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6C4F6A2A844342555DB899 /* Pods-meChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GD8VREVBA4;
 				INFOPLIST_FILE = meChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.meChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meChat/meChat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +469,7 @@
 				63A3303F1DDEAFB70009B090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
